@@ -11,7 +11,7 @@
 	<?php
 
 	// api key
-	define('API_KEY', 'AIzaSyCpIbh_CTL3-8EMJkq1SROq819TAKtl1lQ');
+	define('API_KEY', '****');
 
 	// realizamos la solicitud, para buscar los comics de marvel 
 	$datos  = file_get_contents("https://www.googleapis.com/books/v1/volumes?" . API_KEY . "&startIndex=0&maxResults=40&q=inpublisher:marvel");
