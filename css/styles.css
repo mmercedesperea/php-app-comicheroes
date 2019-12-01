@@ -1,0 +1,553 @@
+@font-face {
+  font-family: "Comica";
+  src: url("../assets/fonts/Comica\ BD.ttf");
+}
+
+@font-face {
+  font-family: "Comic_block";
+  src: url("../assets/fonts/Comic\ Block.ttf");
+}
+
+@font-face {
+  font-family: "Comica_bold";
+  src: url("../assets/fonts/Comica\ BD\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "Comica_boook";
+  src: url("../assets/fonts/Comic\ Book\ Bold.otf");
+}
+html {
+  min-height: 100%;
+  position: relative;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+.navUsu a {
+  color: white !important;
+}
+
+.tipo1 {
+  color: rgb(78, 211, 6);
+  font-family: "Comica_boook";
+  font-size: 50px;
+  line-height: 170px;
+  position: relative;
+}
+
+.tipo2 {
+  color: rgb(254, 208, 1);
+  font-family: "Comica_boook";
+  font-size: 50px;
+  line-height: 170px;
+  position: relative;
+}
+
+.tipo2:hover {
+  color: rgb(25, 68, 1);
+}
+
+.tipo1:hover {
+  color: rgb(115, 117, 0);
+}
+.photo {
+  width: 400px;
+  height: 100%;
+}
+
+.infocom {
+  margin-left: 15% !important;
+  margin-right: 15% !important;
+  margin-bottom: 15% !important;
+  box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -o-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+}
+.infocom h2 {
+  font-family: "Comica_bold";
+  color: green;
+}
+
+.infocom .des {
+  font-family: "Comica_bold";
+}
+
+.adminPanel {
+  font-family: "Comica_bold";
+}
+
+.libraryFoto {
+  width: 100%;
+}
+
+.portadas {
+  width: 80%;
+  height: 80%;
+}
+
+.porataList {
+  width: 85% !important;
+}
+
+.card {
+  text-align: center;
+}
+
+.navHead {
+  background-image: url("../assets/images/green_doots2.jpg");
+  font-family: "Comic_block";
+  font-size: 25px;
+  font-weight: bold;
+
+  position: relative;
+}
+
+.navUsu {
+  /* background-image: url("../assets/images/blobpesp.jpg"); */
+  background-color: brown;
+  font-family: "Comica_bold";
+  margin: auto;
+  padding: auto;
+}
+
+.vl {
+  border-left: 5px solid black;
+  height: 105px;
+  position: absolute;
+  margin-left: 120px;
+}
+
+.hrl {
+  border-top: 5px solid black;
+  width: 86%;
+  margin-left: 120px;
+  position: absolute;
+  padding-bottom: 20px;
+}
+.register {
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: rgb(32, 31, 31);
+}
+
+.login {
+  font-family: "Comica_bold";
+  color: green;
+  background-color: rgb(32, 31, 31);
+
+  text-align: center;
+}
+
+.login h1 {
+  font-size: 60px;
+  font-family: "Comic_block";
+}
+
+.register {
+  font-family: "Comica_bold";
+  color: green;
+
+  text-align: center;
+}
+
+.register h1 {
+  font-size: 60px;
+  font-family: "Comic_block";
+}
+
+.Nom {
+  padding-bottom: 22px;
+  position: absolute;
+  margin-left: 65%;
+}
+
+/* alinear nav */
+.navl {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+body {
+  background-image: url("../assets/images/fondo.jpg");
+}
+
+.borde {
+  border: 5px solid black;
+}
+
+.bordeR {
+  border-right: 5px solid black;
+}
+
+.bordeL {
+  border-left: 5px solid black;
+}
+
+.bordeB {
+  border-bottom: 5px solid black;
+}
+
+.bordeT {
+  border-top: 5px solid black;
+}
+.footer a {
+  font-family: "Comica_bold";
+  color: green;
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  border-top: 5px solid black;
+  text-align: center;
+  background-image: url("../assets/images/green_doots2.jpg");
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer .about {
+  font-size: 40px;
+}
+
+.Finfo {
+  height: 70px;
+}
+
+.Fautor {
+  border-top: 5px solid black;
+}
+
+/* Para quitar los margenes de las row de bootstrap */
+.row .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.contenedor {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  background-color: rgb(53, 48, 48);
+  border: 5px solid black;
+  box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -o-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+}
+
+.cardA {
+  position: relative;
+  display: inline-block;
+
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.crop {
+  position: absolute;
+  left: -88%;
+  right: -88%;
+  top: -97%;
+  bottom: -100%;
+  margin: auto;
+  min-height: 100%;
+  min-width: 73%;
+}
+
+.Tcentrado {
+  position: absolute;
+  text-align: center;
+  font-family: "Comica_boook";
+  font-size: 45px;
+  top: 70%;
+  left: 10%;
+  color: greenyellow;
+}
+.Tcentrado:hover {
+  color: rgb(151, 38, 38);
+}
+
+.RR {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.release {
+  top: -15%;
+  width: 100%;
+  height: 100%;
+}
+
+.novedades a {
+  color: green !important;
+}
+
+.novedades a:hover {
+  color: rgb(151, 38, 38) !important;
+}
+
+.proximos a {
+  color: green !important;
+}
+
+.proximos a:hover {
+  color: rgb(151, 38, 38) !important;
+}
+
+.hall a {
+  color: green !important;
+}
+
+.hall a:hover {
+  color: rgb(151, 38, 38) !important;
+}
+
+.footer a {
+  color: green !important;
+}
+
+.footer a:hover {
+  color: rgb(151, 38, 38) !important;
+}
+
+.buscador .card-title {
+  color: green !important;
+}
+
+.buscador a:hover {
+  color: rgb(151, 38, 38) !important;
+}
+
+.followingList a {
+  color: green !important;
+}
+
+.followingList a:hover {
+  color: rgb(151, 38, 38) !important;
+}
+
+.novedades {
+  text-align: center;
+  color: rgb(151, 38, 38);
+  font-family: "Comica_bold";
+  margin: auto;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: rgb(32, 31, 31);
+}
+.buscador {
+  text-align: center;
+  color: rgb(151, 38, 38);
+  font-family: "Comica_bold";
+  margin: auto;
+  margin-top: 2%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.followingList {
+  text-align: center;
+  color: rgb(151, 38, 38);
+  font-family: "Comica_bold";
+  margin: auto;
+  margin-top: 2%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.hall {
+  text-align: center;
+  color: rgb(151, 38, 38);
+  font-family: "Comica_bold";
+  margin: auto;
+  margin-top: 2%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.hall .card {
+  box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+  -o-box-shadow: 0 0 10px rgba(4, 207, 48, 0.6);
+}
+
+.hall .card .card-body {
+  background-color: rgb(32, 31, 31);
+}
+
+.proximos {
+  text-align: center;
+  color: rgb(151, 38, 38);
+  font-family: "Comica_bold";
+  margin: auto;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%;
+  padding-left: 49px;
+  padding-right: 49px;
+  background-color: rgb(32, 31, 31);
+}
+
+.icon {
+  padding-bottom: 5px;
+}
+
+.followedI {
+  background: url("../assets/images/follow2.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.releaseI {
+  background: url("../assets/images/release.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.burbuja {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  float: left;
+}
+
+.bordeVerde {
+  border: 5px solid rgb(0, 182, 9);
+  float: right;
+}
+
+.bordeAmarillo {
+  border: 5px solid rgb(230, 255, 3);
+  float: right;
+}
+
+.starts {
+  float: left;
+  margin-right: 15px;
+}
+.starts input {
+  display: none;
+}
+.starts > label {
+  margin-right: 2px;
+  float: right;
+  font-size: 18pt;
+  color: #ccc;
+}
+
+.starts > label:hover,
+.starts > label:hover ~ label {
+  color: rgb(151, 43, 43);
+}
+
+.starts > input:checked + label,
+.starts > input:checked ~ label {
+  color: rgb(151, 43, 43);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label {
+  color: rgb(151, 43, 43);
+}
+
+.page-item.disabled .page-link {
+  color: #868e96;
+
+  pointer-events: none;
+
+  cursor: auto;
+
+  background-color: rgb(162, 163, 163);
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  margin-right: 30px !important;
+}
+.page-item {
+  border-radius: 30px;
+}
+
+.page-item .page-link {
+  border-radius: 30px;
+
+  color: black;
+  border-color: black;
+
+  background-color: rgb(40, 167, 69);
+}
+
+.merche {
+  width: 20%;
+}
+
+.about {
+  text-align: center;
+  font-family: "Comica_bold";
+}
+
+.nologin {
+  text-align: center;
+  font-family: "Comica_bold";
+}
+
+.sad {
+  width: 40%;
+}
+
+.contactForm {
+  text-align: center;
+  font-family: "Comica_bold";
+  color: green;
+  background-color: rgb(32, 31, 31);
+}
+
+.contact h1 {
+  font-size: 60px;
+  font-family: "Comic_block";
+}
+.nav-link:hover {
+  color: black !important;
+}
+/* 
+.nav-link:active{
+  color: pink !important;
+}
+
+.nav-link:visited{
+  color: orange;
+} */
